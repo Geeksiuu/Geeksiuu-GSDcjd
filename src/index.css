@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Gaming Minecraft Marketplace Design System - All colors MUST be HSL */
+
+@layer base {
+  :root {
+    /* Gaming Background Colors */
+    --background: 218 23% 8%;        /* Dark gaming background */
+    --foreground: 45 100% 85%;       /* Bright gold text */
+
+    /* Card System */
+    --card: 217 19% 12%;             /* Darker card background */
+    --card-foreground: 45 100% 85%;
+
+    --popover: 217 19% 12%;
+    --popover-foreground: 45 100% 85%;
+
+    /* Gaming Primary Colors */
+    --primary: 187 100% 42%;         /* Cyan gaming accent */
+    --primary-foreground: 218 23% 8%;
+
+    --secondary: 45 100% 51%;        /* Gold/Yellow gaming */
+    --secondary-foreground: 218 23% 8%;
+
+    /* Gaming Accent Colors */
+    --accent-green: 120 100% 35%;    /* Minecraft green */
+    --accent-orange: 24 100% 50%;    /* Orange for APKs */
+    --accent-purple: 270 100% 60%;   /* Purple for tools */
+    --accent-red: 0 100% 60%;        /* Red for hacks */
+    --accent-blue: 220 100% 60%;     /* Blue for mods */
+
+    /* Muted Colors */
+    --muted: 217 19% 18%;
+    --muted-foreground: 45 40% 70%;
+
+    --accent: 187 100% 42%;
+    --accent-foreground: 218 23% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    /* Gaming UI Elements */
+    --border: 217 19% 25%;
+    --input: 217 19% 15%;
+    --ring: 187 100% 42%;
+
+    --radius: 0.75rem;
+
+    /* Gaming Gradients */
+    --gradient-gaming: linear-gradient(135deg, hsl(187 100% 42%), hsl(45 100% 51%));
+    --gradient-hero: linear-gradient(135deg, hsl(218 23% 8% / 0.9), hsl(217 19% 12% / 0.7));
+    --gradient-card: linear-gradient(145deg, hsl(217 19% 12%), hsl(217 19% 15%));
+
+    /* Gaming Shadows */
+    --shadow-gaming: 0 8px 32px hsl(187 100% 42% / 0.3);
+    --shadow-card: 0 4px 20px hsl(218 23% 8% / 0.4);
+    --shadow-glow: 0 0 40px hsl(45 100% 51% / 0.4);
+
+    /* Gaming Effects */
+    --glow-primary: drop-shadow(0 0 20px hsl(187 100% 42% / 0.6));
+    --glow-secondary: drop-shadow(0 0 20px hsl(45 100% 51% / 0.6));
+
+    /* Animations */
+    --transition-gaming: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.2s ease-out;
+
+    /* Sidebar - Gaming Theme */
+    --sidebar-background: 217 19% 10%;
+    --sidebar-foreground: 45 100% 85%;
+    --sidebar-primary: 187 100% 42%;
+    --sidebar-primary-foreground: 218 23% 8%;
+    --sidebar-accent: 217 19% 15%;
+    --sidebar-accent-foreground: 45 100% 85%;
+    --sidebar-border: 217 19% 20%;
+    --sidebar-ring: 187 100% 42%;
+  }
+
+  .dark {
+    /* Enhanced dark mode for gaming */
+    --background: 218 23% 4%;        /* Even darker for gaming */
+    --foreground: 45 100% 90%;
+
+    --card: 217 19% 8%;
+    --card-foreground: 45 100% 90%;
+
+    --popover: 217 19% 8%;
+    --popover-foreground: 45 100% 90%;
+
+    --primary: 187 100% 50%;         /* Brighter cyan in dark */
+    --primary-foreground: 218 23% 4%;
+
+    --secondary: 45 100% 60%;        /* Brighter gold in dark */
+    --secondary-foreground: 218 23% 4%;
+
+    --muted: 217 19% 12%;
+    --muted-foreground: 45 30% 60%;
+
+    --accent: 187 100% 50%;
+    --accent-foreground: 218 23% 4%;
+
+    --border: 217 19% 20%;
+    --input: 217 19% 10%;
+    --ring: 187 100% 50%;
+
+    /* Enhanced gradients for dark mode */
+    --gradient-gaming: linear-gradient(135deg, hsl(187 100% 50%), hsl(45 100% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(218 23% 4% / 0.95), hsl(217 19% 8% / 0.8));
+
+    /* Enhanced shadows for dark mode */
+    --shadow-gaming: 0 8px 32px hsl(187 100% 50% / 0.4);
+    --shadow-glow: 0 0 40px hsl(45 100% 60% / 0.5);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
