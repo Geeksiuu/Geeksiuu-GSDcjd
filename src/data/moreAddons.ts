@@ -81,7 +81,7 @@ export const moreAddons = [
     updatedAt: "Hace 4 días"
   },
   {
-    title: "ACTIONS & STUFF 1.6",
+    title: "ACTIONS & STUFF 1.7",
     description: "Un addon con realismo extremo",
     imageUrl: packActionStuff,
     downloadUrl: "https://linkyshare.com/es/@Geekhkr/acciones-y-mas-16-para-tu-minecraft-bedrock",
