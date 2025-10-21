@@ -163,7 +163,7 @@ const categoryData = {
   ],
   tools: [
     {
-      title: "Actions & Stuff 1.6",
+      title: "Actions & Stuff 1.7",
       description: "Agrega nuevas animaciones y acciones épicas al juego",
       imageUrl: packActionStuff,
       downloadUrl: "https://linkyshare.com/es/@Geekhkr/acciones-y-mas-16-para-tu-minecraft-bedrock",
