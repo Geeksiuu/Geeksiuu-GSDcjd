@@ -52,7 +52,7 @@ const Index = () => {
       updatedAt: "Hace 3 días"
     },
     {
-      title: "Actions & Stuff 1.6",
+      title: "Actions & Stuff 1.7",
       description: "Agrega nuevas animaciones y acciones épicas al juego",
       imageUrl: packActionsStuff,
       downloadUrl: "https://linkyshare.com/es/@Geekhkr/acciones-y-mas-16-para-tu-minecraft-bedrock",
